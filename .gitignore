@@ -1,0 +1,29 @@
+# === Python / SHARC ===
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# === Resultados generados (cada quien los genera corriendo los scripts) ===
+resultados_csv/*.csv
+graficas_generadas/*.png
+graficas_generadas/*.pdf
+
+# Pero SI versionar la carpeta vacia (con un .gitkeep)
+!resultados_csv/.gitkeep
+!graficas_generadas/.gitkeep
+
+# === MATLAB ===
+*.asv
+*.m~
+slprj/
+*.slxc
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores ===
+.vscode/
+*.swp
