@@ -5,17 +5,6 @@ de AST SpaceMobile (DC-MSS-IMT) y redes IMT terrestres, en la frontera
 Colombia-Brasil (Leticia/Tabatinga). Escuela Colombiana de Ingeniería Julio
 Garavito — curso Medios de Transmisión.
 
-## ⚠️ Nota importante — dos valores de C usados en el proyecto
-
-| | Parte 1 (entregada, 13 ago) | Parte 2 (en curso) |
-|---|---|---|
-| **C usado** | **-74.30 dBm** (referencia dada por el profesor) | **-65.03 dBm** (simulado en SEAMCAT) |
-| Aplica a | Tabla 2, criterios C/I y C/(N+I) de los 9 ángulos oficiales | Todo el análisis de barrido de potencia y matriz ángulo×potencia de esta carpeta, columnas `CI_db`/`CNI_db` con sufijo `_C65` |
-
-**No mezclar los dos valores.** Los archivos con sufijo `_C65` en
-`resultados_csv/` usan -65.03 dBm; los que no tienen sufijo usan -74.30 dBm
-(el mismo que la Tabla 2 oficial).
-
 ## Estructura del repositorio
 
 ```
