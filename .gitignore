@@ -4,15 +4,6 @@ __pycache__/
 venv/
 *.egg-info/
 
-# === Resultados generados (cada quien los genera corriendo los scripts) ===
-resultados_csv/*.csv
-graficas_generadas/*.png
-graficas_generadas/*.pdf
-
-# Pero SI versionar la carpeta vacia (con un .gitkeep)
-!resultados_csv/.gitkeep
-!graficas_generadas/.gitkeep
-
 # === MATLAB ===
 *.asv
 *.m~
@@ -27,3 +18,7 @@ desktop.ini
 # === Editores ===
 .vscode/
 *.swp
+
+# Nota: resultados_csv/ y graficas_generadas/ SI se versionan en este repo
+# (contienen los resultados reales ya validados), a diferencia de la
+# version inicial del .gitignore que los excluia por defecto.
